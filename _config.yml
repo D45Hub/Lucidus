@@ -11,6 +11,7 @@ favicon: "favicon.png" # name+extension of favicon (which must be put on the roo
 theme: lucidus # if you are using GitHub Pages, change it to remote_theme: D45Hub/lucidus
 
 sass:
+  sass_dir: _scss
   style: :compressed
 
 plugins:

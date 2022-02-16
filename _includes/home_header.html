@@ -1,0 +1,11 @@
+<p>
+  {% for info in page.infos %}
+
+  {% if forloop.last %}
+    <span>{{ info }}</span>
+  {% else %}
+    <span>{{ info }} •</span>
+  {% endif %}
+
+  {% endfor %}
+</p>

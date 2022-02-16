@@ -1,5 +1,4 @@
 ---
-layout: page
+layout: home
+infos: [mail@denisthiessen.de, Denis, Developer]
 ---
-
-hello
