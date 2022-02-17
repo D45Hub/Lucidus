@@ -1,21 +1,64 @@
+$max-width: 512px;
+$post-separation: 64px;
+
+html {
+  font-family: Verdana, Geneva, Helvetica, Arial, sans-serif;
+}
+
 ul {
   list-style-type: none;
 }
 
+a, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.post-list {
+  li {
+    margin-bottom: $post-separation;
+  }
+}
+
+.archive-post-link {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.post-meta {
+  color: rgb(117, 117, 117);
+  margin-top: 24px;
+}
+
 .center {
-  max-width: 512px;
+  max-width: $max-width;
   margin: 0 auto;
 }
 
+.centered-text {
+  text-align: center;
+}
+
+.header-info {
+  margin-bottom: 48px;
+}
+
 .footer {
-  max-width: 512px;
-  margin: 0 auto;
+  max-width: $max-width;
+  margin: $post-separation auto 0 auto;
 
   ul {
     padding: 0;
 
     li {
       display: inline;
+      margin: 10px 10px 0 0;
+      white-space: nowrap;
     }
   }
 }

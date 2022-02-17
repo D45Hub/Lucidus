@@ -3,7 +3,7 @@ layout: default
 ---
 
 <header>
-  <h1>{{ site.title }}</h1>
+  <h1 class="centered-text">{{ site.title }}</h1>
 </header>
 
 {%- include home_header.html -%}
@@ -27,7 +27,7 @@ layout: default
     </li>
     {%- endfor -%}
     <li>
-      <a class="post-link" href="./archive/">Archive</a>
+      <a class="archive-post-link" href="./archive/">Archive</a>
     </li>
   </ul>
 {%- endif -%}
