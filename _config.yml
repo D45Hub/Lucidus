@@ -8,7 +8,7 @@ description: > # description of the site (multiple lines allowed)
 
 favicon: "favicon.png" # name+extension of favicon (which must be put on the root folder)
 
-theme: lucidus # if you are using GitHub Pages, change it to remote_theme: D45Hub/lucidus
+#theme: lucidus # if you are using GitHub Pages, change it to remote_theme: D45Hub/lucidus
 remote_theme: D45Hub/Lucidus
 
 sass:
