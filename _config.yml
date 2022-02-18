@@ -1,15 +1,15 @@
 title: Lucidus # name of the site
 author: Denis Thiessen # name of site's author
 email: mail@denisthiessen.de # email of site's author
-url: https://denisthiessen.de # root address of the site
-baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
+url: https://d45hub.github.io/Lucidus/ # root address of the site
+baseurl: "/Lucidus" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
   A super minimal and lightweight Jekyll theme.
 
 favicon: "favicon.png" # name+extension of favicon (which must be put on the root folder)
 
-#theme: lucidus # if you are using GitHub Pages, change it to remote_theme: D45Hub/lucidus
-remote_theme: D45Hub/Lucidus
+theme: lucidus # if you are using GitHub Pages, change it to remote_theme: D45Hub/lucidus
+#remote_theme: D45Hub/Lucidus
 
 sass:
   sass_dir: _scss
