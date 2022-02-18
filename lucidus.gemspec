@@ -12,7 +12,10 @@ Gem::Specification.new do |spec|
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|_config\.yml)!i) }
 
-  spec.add_runtime_dependency "jekyll", "~> 4.2"
-  spec.add_runtime_dependency "jekyll-feed", "~> 0.16.0"
-  spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.8.0"
+  spec.add_runtime_dependency "jekyll", "~> 3.9"
+  spec.add_runtime_dependency "jekyll-feed", "~> 0.15.1"
+  spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.7.1"
+  spec.add_development_dependency "github-pages", "~> 223"
+  spec.add_development_dependency "terminal-table", "~> 1.4"
+  spec.add_development_dependency "jekyll-remote-theme", "~> 0.4.0"
 end
