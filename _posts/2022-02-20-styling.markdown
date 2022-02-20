@@ -1,0 +1,58 @@
+---
+layout: post
+show_description: true
+title: "Lucidus Styling"
+description: "This is just a little post to show you the different theme stylings in this theme"
+---
+
+Hello World and welcome to this little example page of the ***Lucidus*** theme. 😊
+
+Enjoy. *Or not... I'm fine...*
+
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+
+### Here is a bulleted list
+ - This is a bullet point
+ - This is another bullet point
+
+### Here is a numbered list
+1. This is a numbered list point
+2. You know the drill.
+
+**Stop.**
+<hr/>
+
+### This is a small sample of Java code
+```Java
+public static void main(String[] args) {
+  System.out.println("Hello you.");
+}
+```
+
+### And a bit of text
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+### There's a useless quote...
+> It's not stupid if it works... - Me
+
+> And a nested one as well..
+>> Please send help... I'm stuck.
+
+### And there's a table
+
+ID  | Name   | Subject
+----|--------|--------
+001 | John   | Physics
+002 | Doe    | Chemistry
+003 | Samson | Biology
+
+### And now a link
+A little plug to [my website](https://denisthiessen.de).
+
+### And lastly an image
+![A basic example image with a little note saying "Hey!"]({{ site.baseurl }}/assets/images/exampleImage.jpg)

@@ -16,7 +16,7 @@ layout: default
     {%- for post in site.posts limit: 5 -%}
     <li>
       <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
+        <a class="post-link black-color" href="{{ post.url | relative_url }}">
           {{ post.title | escape }}
         </a>
       </h3>
@@ -27,7 +27,7 @@ layout: default
     </li>
     {%- endfor -%}
     <li>
-      <a class="archive-post-link" href="./archive/">Archive</a>
+      <a class="archive-post-link black-color" href="./archive/">Archive</a>
     </li>
   </ul>
 {%- endif -%}
