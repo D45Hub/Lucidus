@@ -58,6 +58,12 @@ a:hover {
 
 blockquote {
   font-style: italic;
+  border-left: 5px solid #D8D8D8;
+  padding-left: 8px;
+}
+
+blockquote:not(blockquote:nth-child(2)) {
+  margin-left: 0;
 }
 
 pre {
