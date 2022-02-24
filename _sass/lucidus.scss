@@ -24,13 +24,13 @@ table {
   display: table;
   width: $element-width;
   margin: 0 auto;
-  border: 0,0625rem solid;
+  border: 0.0625rem solid;
   text-align: center;
   table-layout: fixed;
 }
 
 td, th {
-  border: 0,0625rem solid $very-light-gray;
+  border: 0.0625rem solid $very-light-gray;
   padding: 0.5rem;
   width: 100%;
 }
@@ -78,7 +78,7 @@ a:hover {
 
 blockquote {
   font-style: italic;
-  border-left: 0,3125rem solid $code-gray;
+  border-left: 0.3125rem solid $code-gray;
   padding-left: 0.5rem;
 }
 
@@ -96,8 +96,8 @@ pre {
 code {
   font-family: monospace;
   background-color: $code-gray;
-  padding: 0,1875rem 0,3125rem 0,0625rem 0,3125rem;
-  border-radius: 0,3125rem;
+  padding: 0.1875rem 0.3125rem 0.0625rem 0.3125rem;
+  border-radius: 0.3125rem;
 }
 
 .post-list {
