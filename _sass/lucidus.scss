@@ -1,41 +1,49 @@
-$max-width: 640px;
-$post-separation: 64px;
+$max-width: 40rem;
+$post-separation: 4rem;
+$element-width: 95%;
+
+$link-color: #003F10;
+$very-light-gray: #DAE1E7;
+$light-gray: #ddd;
+$gray: #757575;
+$code-gray: #D8D8D8;
 
 html {
   font-family: Verdana, Geneva, Helvetica, Arial, sans-serif;
-  line-height: 20pt;
+  font-size: 1rem;
+  line-height: 1.75rem;
 }
 
 img {
   display: block;
-  width: 95%;
+  width: $element-width;
   margin: 0 auto;
 }
 
 table {
   display: table;
-  width: 95%;
+  width: $element-width;
   margin: 0 auto;
-  border: 1px solid;
+  border: 0,0625rem solid;
   text-align: center;
   table-layout: fixed;
 }
 
 td, th {
-  border: 1px solid #DAE1E7;
-  padding: 8px;
+  border: 0,0625rem solid $very-light-gray;
+  padding: 0.5rem;
   width: 100%;
 }
 
 tr:hover {
-  background-color: #ddd;
+  background-color: $light-gray;
 }
 
 th {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   text-align: left;
-  background-color: #8795A1;
+  background-color: $very-light-gray;
   color: white;
 
   text-align: center;
@@ -55,11 +63,11 @@ h3 a {
 }
 
 a {
-  color: #003F10;
+  color: $link-color;
 }
 
 a, a:visited, a:active {
-  color: #003F10;
+  color: $link-color;
   text-decoration: none;
 }
 
@@ -70,8 +78,8 @@ a:hover {
 
 blockquote {
   font-style: italic;
-  border-left: 5px solid #D8D8D8;
-  padding-left: 8px;
+  border-left: 0,3125rem solid $code-gray;
+  padding-left: 0.5rem;
 }
 
 blockquote:not(blockquote:nth-child(2)) {
@@ -81,15 +89,15 @@ blockquote:not(blockquote:nth-child(2)) {
 pre {
   code {
     display: block;
-    border-radius: 10px;
+    border-radius: 0.625rem;
   }
 }
 
 code {
   font-family: monospace;
-  background-color: #D8D8D8;
-  padding: 3px 5px 1px 5px;
-  border-radius: 5px;
+  background-color: $code-gray;
+  padding: 0,1875rem 0,3125rem 0,0625rem 0,3125rem;
+  border-radius: 0,3125rem;
 }
 
 .post-list {
@@ -101,13 +109,13 @@ code {
 }
 
 .archive-post-link {
-  font-size: 24px;
+  font-size: 1.6rem;
   font-weight: 600;
 }
 
 .post-meta {
-  color: rgb(117, 117, 117);
-  margin-top: 24px;
+  color: $gray;
+  margin-top: 1.5rem;
 }
 
 .center {
@@ -120,7 +128,7 @@ code {
 }
 
 .header-info {
-  margin-bottom: 48px;
+  margin-bottom: 3rem;
 }
 
 .black-color {
@@ -137,7 +145,7 @@ code {
 
     li {
       display: inline;
-      margin: 10px 10px 0 0;
+      margin: 0.625rem 0.625rem 0 0;
       white-space: nowrap;
     }
   }
