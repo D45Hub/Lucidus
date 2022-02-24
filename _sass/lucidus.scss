@@ -6,6 +6,7 @@ $link-color: #003F10;
 $very-light-gray: #DAE1E7;
 $light-gray: #ddd;
 $gray: #757575;
+$table-gray: #8795A1;
 $code-gray: #D8D8D8;
 
 html {
@@ -43,7 +44,7 @@ th {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   text-align: left;
-  background-color: $very-light-gray;
+  background-color: $table-gray;
   color: white;
 
   text-align: center;
