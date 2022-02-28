@@ -13,8 +13,6 @@ layout: default
     {%- for post in site.posts limit: 5 -%}
     {%- include blog_entry.html -%}
     {%- endfor -%}
-    <li class="centered-text">
-      <a class="archive-post-link black-color" href="./archive/">Blog Archive</a>
-    </li>
   </ul>
+  <a class="archive-post-link black-color centered-text" href="./archive/">Blog Archive</a>
 {%- endif -%}

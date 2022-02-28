@@ -114,8 +114,10 @@ code {
 }
 
 .archive-post-link {
+  display: inline-block;
   font-size: 1.6rem;
   font-weight: 600;
+  width: 100%;
 }
 
 .post-meta {
